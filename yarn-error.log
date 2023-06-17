@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/valentinoekaapritha/.nvm/versions/node/v18.15.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install node
+
+PATH: 
+  /opt/homebrew/opt/openssl@3/bin:/Users/valentinoekaapritha/.nvm/versions/node/v18.15.0/bin:/opt/homebrew/opt/openssl@3/bin:/opt/homebrew/opt/tcl-tk/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.dotnet/tools:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/opt/openssl@3/bin:/Users/valentinoekaapritha/.nvm/versions/node/v18.15.0/bin:/opt/homebrew/opt/tcl-tk/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/valentinoekaapritha/Documents/Ikuyo-kita/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

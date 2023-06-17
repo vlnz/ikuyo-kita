@@ -1,0 +1,69 @@
+{
+    "name": "ikuyo-kita",
+    "version": "1.0.0",
+    "description": "Simple bot music create using discord.js",
+    "main": "index.js",
+    "scripts": {
+        "install-node-v14": "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && export NVM_DIR=\"$([ -z \"${XDG_CONFIG_HOME-}\" ] && printf %s \"${HOME}/.nvm\" || printf %s \"${XDG_CONFIG_HOME}/nvm\")\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 14 && nvm use 14",
+        "start": "node index",
+        "rm-logs": "rm Logs.log",
+        "format": "prettier --write .",
+        "prepare": "husky install"
+    },
+    "engines": {
+        "node": "12.x"
+    },
+    "keywords": [
+        "discord",
+        "discord-bot",
+        "music"
+    ],
+    "author": "Fiyu/vlnz",
+    "license": "MIT",
+    "bugs": {},
+    "dependencies": {
+        "colors": "^1.4.0",
+        "cpu": "^1.0.1",
+        "cpu-stat": "^2.0.1",
+        "discord.js": "^14.11.0",
+        "discordjs-activity": "^1.4.2",
+        "dotenv": "^16.3.0",
+        "erela.js": "^2.4.0",
+        "erela.js-apple": "^1.2.6",
+        "erela.js-deezer": "^1.0.7",
+        "erela.js-facebook": "^1.0.4",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "fs": "^0.0.1-security",
+        "husky": "^8.0.3",
+        "jsoning": "^0.13.23",
+        "lavasfy": "^2.3.0",
+        "lint-staged": "^13.2.2",
+        "lodash": "^4.17.21",
+        "lyrics-finder": "^21.7.0",
+        "moment": "^2.29.4",
+        "moment-duration-format": "^2.3.2",
+        "mongoose": "^7.3.0",
+        "node": "^20.2.0",
+        "node-fetch": "^3.3.1",
+        "passport": "^0.6.0",
+        "passport-discord": "^0.1.4",
+        "prettier": "^2.8.8",
+        "pretty-ms": "^8.0.0",
+        "socket.io": "^4.6.2",
+        "winston": "^3.9.0",
+        "yarn": "^1.22.19"
+    },
+    "devDependencies": {
+        "husky": "8.0.3",
+        "lint-staged": "13.2.2",
+        "prettier": "2.8.8"
+    },
+    "lint-staged": {
+        "*.{js,json,md}": "prettier --write"
+    },
+    "volta": {
+        "node": "^20.2.0",
+        "yarn": "^1.22.19"
+    }
+}
